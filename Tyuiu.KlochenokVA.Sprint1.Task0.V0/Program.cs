@@ -19,7 +19,7 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task0.V0
             Console.WriteLine("* Спринт #1                                                              *");
             Console.WriteLine("* Тема: Создания итогового решения по спринту                            *");
             Console.WriteLine("* Задание #0                                                             *");
-            Console.WriteLine("* Вариант #22                                                            *");
+            Console.WriteLine("* Вариант #0                                                             *");
             Console.WriteLine("* Выполнил: Клоченок Владимир Алексеевич | ИСПб-25-1                     *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
