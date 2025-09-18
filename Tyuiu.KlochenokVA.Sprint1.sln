@@ -5,11 +5,11 @@ VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint1.Task2.V0", "Tyuiu.KlochenokVA.Sprint1.Task1.V0\Tyuiu.KlochenokVA.Sprint1.Task2.V0.csproj", "{274EF808-D6E9-4138-B51A-F9AFE4CD2A82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint1.Task2.V22", "Tyuiu.KlochenokVA.Sprint1.Task1.V0\Tyuiu.KlochenokVA.Sprint1.Task2.V22.csproj", "{274EF808-D6E9-4138-B51A-F9AFE4CD2A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint1.Task2.V0.Lib", "Tyuiu.KlochenokVA.Sprint1.Task2.V0.Lib\Tyuiu.KlochenokVA.Sprint1.Task2.V0.Lib.csproj", "{C5457A26-C17D-4D92-AAF0-9667734333F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint1.Task2.V22.Lib", "Tyuiu.KlochenokVA.Sprint1.Task2.V0.Lib\Tyuiu.KlochenokVA.Sprint1.Task2.V22.Lib.csproj", "{C5457A26-C17D-4D92-AAF0-9667734333F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint1.Task2.V0.Test", "Tyuiu.KlochenokVA.Sprint1.Task2.V0.Test\Tyuiu.KlochenokVA.Sprint1.Task2.V0.Test.csproj", "{CB5AAED7-EC42-44A0-BAC2-EC0E41BF30FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint1.Task2.V22.Test", "Tyuiu.KlochenokVA.Sprint1.Task2.V0.Test\Tyuiu.KlochenokVA.Sprint1.Task2.V22.Test.csproj", "{CB5AAED7-EC42-44A0-BAC2-EC0E41BF30FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{62B15281-9399-45DD-A9D7-249F7B676B4A}"
 EndProject
