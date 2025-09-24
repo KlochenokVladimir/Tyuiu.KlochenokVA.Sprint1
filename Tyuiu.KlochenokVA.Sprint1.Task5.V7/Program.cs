@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.KlochenokVA.Sprint1.Task1.V0.Lib;
+using Tyuiu.KlochenokVA.Sprint1.Task5.V7.Lib;
 
-namespace Tyuiu.KlochenokVA.Sprint1.Task1.V0
+
+namespace Tyuiu.KlochenokVA.Sprint1.Task5.V7
 {
     internal class Program
     {
@@ -17,31 +18,29 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task1.V0
             Console.Title = "Спринт #1 | Выполнил: Клоченок В. А. | ИСПб-25-1";
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* Спринт #1                                                              *");
-            Console.WriteLine("* Тема: Организация ввода/вывода в консольных приложениях                *");
-            Console.WriteLine("* Задание #1                                                             *");
-            Console.WriteLine("* Вариант #0                                                             *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                             *");
+            Console.WriteLine("* Задание #5                                                             *");
+            Console.WriteLine("* Вариант #7                                                             *");
             Console.WriteLine("* Выполнил: Клоченок Владимир Алексеевич | ИСПб-25-1                     *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* Написать консольную программу на C#, которая вычисляет выражение       *");
-            Console.WriteLine("* 10 / (2 + 3) и печатает результат на экране.                           *");
+            Console.WriteLine("* Определить h – полное количество часов прошедших от начала суток до    *");
+            Console.WriteLine("* того момента (в первой половине дня), когда часовая стрелка повернулась*");
+            Console.WriteLine("* на f градусов (0<f<360, f – вещественное число).                       *");
             Console.WriteLine("*                                                                        *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
-            Console.WriteLine("* 10 / (2 + 3)                                                           *");
+            Console.WriteLine("* f = 90                                                                 *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            double x, y;
+            Console.Write("Введите значение f (в градусах): ");
+            double f = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение X:");
-            x = Convert.ToDouble(Console.ReadLine());
+            int result = ds.AngleToHoursMinutes(f);
+            Console.WriteLine($"Полных часов прошло: {result}");
 
-            Console.WriteLine("Введите значение Y:");
-            y = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
         }
     }

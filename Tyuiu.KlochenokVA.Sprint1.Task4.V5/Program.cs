@@ -17,9 +17,9 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task4.V5
             Console.Title = "Спринт #1 | Выполнил: Клоченок В. А. | ИСПб-25-1";
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* Спринт #1                                                              *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                       *");
-            Console.WriteLine("* Задание #3                                                             *");
-            Console.WriteLine("* Вариант #13                                                            *");
+            Console.WriteLine("* Тема: Class Math                                                       *");
+            Console.WriteLine("* Задание #4                                                             *");
+            Console.WriteLine("* Вариант #5                                                             *");
             Console.WriteLine("* Выполнил: Клоченок Владимир Алексеевич | ИСПб-25-1                     *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
