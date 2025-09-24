@@ -12,7 +12,10 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task2.V22.Test
         [TestMethod]
         public void ValidExpression()
         {
-            
+            DataService ds = new DataService();
+            int x = 2;
+            var res = ds.Sqr(x);
+            Assert.AreEqual(4, res);
         }
     }
 }
