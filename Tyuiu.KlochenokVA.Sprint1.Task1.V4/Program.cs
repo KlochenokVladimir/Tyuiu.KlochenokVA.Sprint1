@@ -25,7 +25,7 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task1.V4
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные,*");
             Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.            *");
-            Console.WriteLine("* Вычислить значение выражения (x * y) / (x + y)                        *");
+            Console.WriteLine("* Вычислить значение выражения (x+y)/x*y                                *");
             Console.WriteLine("*                                                                        *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
@@ -43,7 +43,7 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task1.V4
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine("(x * y) / (x + y) = " + ds.Calculate(x, y));
+            Console.WriteLine("(x+y)/x*y = " + ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
