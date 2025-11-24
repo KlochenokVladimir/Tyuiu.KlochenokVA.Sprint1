@@ -12,7 +12,7 @@ namespace Tyuiu.KlochenokVA.Sprint1.Task0.V9.Lib
     {
         public double Calculate()
         {
-            return (18 + 2 * 6 + 2) / (6 * 6 - 1 * 5);
+            return (9.0 / 3.0) * 4.0 / 3.0 / 2.0 + 1.0;
         }
     }
 }
